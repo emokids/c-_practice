@@ -8,7 +8,7 @@ FilteredInput::FilteredInput() : words({}){}
 void FilteredInput::createList(){
     string word;
     while(true){
-        cout << "文字列を入力："
+        cout << "文字列を入力：";
         getline(cin, word);
         if (word.empty()){
             break;
